@@ -1,4 +1,5 @@
 package arraylist;
+
 import java.util.*;
 public class ArrayListEx4 {
 
@@ -7,6 +8,7 @@ public class ArrayListEx4 {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		ArrayList<String> alist=new ArrayList<String>();
 		
 		alist.add("AAAA");
