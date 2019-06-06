@@ -49,9 +49,9 @@ public class SortingEmployees {
 	    public static void main (String[] args) 
 	    { 
 	        ArrayList<Employee> ar = new ArrayList<Employee>(); 
-	        ar.add(new Employee(111, "ram", 100000)); 
-	        ar.add(new Employee(112, "ravi", 250000)); 
-	        ar.add(new Employee(113, "shyam", 50000)); 
+	        ar.add(new Employee(1, "ram", 100000)); 
+	        ar.add(new Employee(112, "madhuri", 250000)); 
+	        ar.add(new Employee(13, "shyam", 50000)); 
 	  
 	        System.out.println("The unsorted employee list is: "); 
 	        for(int i=0; i<ar.size(); i++) 
@@ -69,3 +69,5 @@ public class SortingEmployees {
 	            System.out.println(ar.get(i)); 
 	    } 
 	} 
+	
+
